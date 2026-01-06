@@ -1,0 +1,3702 @@
+THIS FILE CONTAINS ALL COMPONENTS AND THEIR SPECS FROM THE FIGMA PROJECT:
+
+//////////////////
+
+CloseTaskButton
+
+state="default";
+width: 32;
+height: 32;
+top: 20px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+// While hovering
+// Change to: "hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsArrowBarRight
+width: 16.501340866088867;
+height: 21;
+top: 1.5px;
+left: 4.5px;
+angle: 0 deg;
+opacity: 1;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+
+state="hover";
+width: 32;
+height: 32;
+top: 57px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+background: #4E4E4E;
+// Mouse leave
+// Change to: "default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// While pressing
+// Change to: "pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+state="pressed";
+width: 32;
+height: 32;
+top: 94px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+background: #343333;
+
+//////////////////
+
+NotificationButton
+
+State="Default";
+HasNotification="No";
+width: 32;
+height: 33;
+top: 21px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+// While hovering
+// Change to: "Hover, HasNotification=No";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsBellFill
+width: 24;
+height: 25;
+angle: 0 deg;
+opacity: 1;
+
+State="Hover";
+HasNotification="No";
+width: 32;
+height: 33;
+top: 62px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+background: #4E4E4E;
+react-icons/bs/BsBellFill
+width: 24;
+height: 25;
+angle: 0 deg;
+opacity: 1;
+
+State="Pressed";
+HasNotification="No";
+width: 32;
+height: 33;
+top: 103px;
+left: 20px;
+border-radius: 2px;
+padding: 4px;
+gap: 10px;
+angle: 0 deg;
+opacity: 1;
+background: #343333;
+react-icons/bs/BsBellFill
+width: 24;
+height: 25;
+angle: 0 deg;
+opacity: 1;
+
+State="Default";
+HasNotification="Yes";
+width: 32;
+height: 33;
+top: 20px;
+left: 58px;
+border-radius: 2px;
+padding: 4px;
+angle: 0 deg;
+opacity: 1;
+// While hovering
+// Change to: "Hover, HasNotification=Yes";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsBellFill
+Ellipse 1, background: #880000; width: 8;
+height: 8;
+top: 4px;
+left: 18px;
+angle: 0 deg;
+opacity: 1;
+
+State="Hover";
+HasNotification="Yes";
+width: 32;
+height: 33;
+top: 62px;
+left: 58px;
+border-radius: 2px;
+padding: 4px;
+angle: 0 deg;
+opacity: 1;
+background: #4E4E4E;
+// While pressing
+// Change to: "Pressed, HasNotification=Yes";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// Mouse leave
+// Change to: "Default, HasNotification=Yes";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsBellFill
+Ellipse 1, background: #880000;
+width: 8;
+height: 8;
+top: 4px;
+left: 18px;
+angle: 0 deg;
+opacity: 1;
+
+State="Pressed";
+HasNotification="Yes";
+width: 32;
+height: 33;
+top: 103px;
+left: 58px;
+border-radius: 2px;
+padding: 4px;
+angle: 0 deg;
+opacity: 1;
+background: #343333;
+react-icons/bs/BsBellFill
+Ellipse 1, background: #880000;
+width: 8;
+height: 8;
+top: 4px;
+left: 18px;
+angle: 0 deg;
+opacity: 1;
+
+//////////////////
+
+NewTaskButton
+
+state="default";
+width: 152;
+height: 44;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding: 10px;
+gap: 10px;
+// While hovering
+// Change to: "hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsFillPlusCircleFill, width: 20; background: #FFFFFF;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+Text Nova tarefa
+width: 96;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+state="hover";
+width: 152;
+height: 44;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 103px;
+left: 20px;
+padding: 10px;
+gap: 10px;
+background: #4E4E4E;
+// Mouse leave
+// Change to: "default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsFillPlusCircleFill, state=hover, width: 20;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+#FFFFFF
+Text, Nova tarefa
+state=hover 
+width: 96;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+//////////
+
+ProfileButton
+
+state="default";
+width: 128;
+height: 36;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+gap: 8px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+// While hovering
+// Change to: "hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+account_circlewidth: 23.33333396911621;
+height: 23.33333396911621;
+angle: 0 deg;
+opacity: 1;
+top: 2.33px;
+left: 2.33px;
+background: #FFFFFF;
+Text, José
+state=default
+width: 38;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+state="hover";
+width: 128;
+height: 36;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 188px;
+gap: 8px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #4E4E4E;
+// Mouse leave
+// Change to: "default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+account_circle
+width: 23.33333396911621;
+height: 23.33333396911621;
+angle: 0 deg;
+opacity: 1;
+top: 2.33px;
+left: 2.33px;
+background: #FFFFFF;
+Text, José
+width: 38;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+///////////
+
+ListOptionsButton
+
+State="Default";
+width: 32;
+height: 32;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding: 4px;
+gap: 10px;
+// While hovering
+// Change to: "Hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsThreeDots
+width: 19.5;
+height: 4.5;
+angle: 0 deg;
+opacity: 1;
+top: 9.75px;
+left: 2.25px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+
+State="Hover";
+width: 32;
+height: 32;
+border-radius: 2px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 92px;
+padding: 4px;
+gap: 10px;
+background: #4E4E4E;
+// While pressing
+// Change to: "Pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// Mouse leave
+// Change to: "Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsThreeDots
+width: 19.5;
+height: 4.5;
+angle: 0 deg;
+opacity: 1;
+top: 9.75px;
+left: 2.25px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+
+State="Pressed";
+width: 32;
+height: 32;
+border-radius: 2px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 164px;
+padding: 4px;
+gap: 10px;
+background: #343333;
+react-icons/bs/BsThreeDots
+width: 19.5;
+height: 4.5;
+angle: 0 deg;
+opacity: 1;
+top: 9.75px;
+left: 2.25px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+
+///////////
+
+FinsihTaskButton
+
+State="default";
+width: 113;
+height: 40;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding: 4px;
+gap: 8px;
+// While hovering
+// Change to: "hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Frame 55
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #FFFFFF
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text, Finalizar
+width: 65;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="hover";
+width: 113;
+height: 40;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 71px;
+left: 20px;
+padding: 4px;
+gap: 8px;
+// Mouse leave
+// Change to: "default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Frame 55
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #15C384
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #15C384;
+border: 1px solid #15C384
+Text, Finalizar
+width: 65;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #15C384;
+
+State="finished";
+width: 129;
+height: 40;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 124px;
+left: 20px;
+padding: 4px;
+gap: 8px;
+Frame 55
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #096343
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #096343;
+border: 1px solid #096343
+Text, Finalizado
+width: 81;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+///////////
+
+DropdownItem
+
+State="Default";
+Type="Default";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #252628;
+// While hovering
+// Change to: "Hover, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 121;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Hover";
+Type="Default";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 78px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #4E4E4E;
+// While pressing
+// Change to: "Pressed, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// Mouse leave
+// Change to: "Default, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Pressed";
+Type="Default";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 136px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #343333;
+// Mouse leave
+// Change to: "Default, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text, Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 121;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+State="Defaul";
+Type="Danger";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 194px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #252628;
+// While hovering
+// Change to: "Hove, Danger";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 121;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+
+State="Hove";
+Type="Danger";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 252px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #4E4E4E;
+// While pressing
+// Change to: "Pressed, Danger";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// Mouse leave
+// Change to: "Defaul, Danger";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #CF3F3F;
+border: 1px solid #CF3F3F
+Text, Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 121;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+State="Pressed";
+Type="Danger";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 185;
+height: 40;
+angle: 0 deg;
+opacity: 1;
+top: 310px;
+left: 20px;
+padding: 8px;
+gap: 8px;
+background: #343333;
+// Mouse leave
+// Change to: "Defaul, Danger";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #AF0505;
+border: 1px solid #AF0505
+Text, Renomear lista
+State="—";
+Type="—";
+Text="Renomear lista";
+Icon="List Title/react-icons/bs/Property 35";
+width: 121;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+
+////////////
+
+PriorityDropdownItem
+
+Priority="Low";
+State="Default";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #252628;
+// While hovering
+// Change to: "Low, Hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+Priority=Low, State=Default
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Priority="Low";
+State="Hover";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 266px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #4E4E4E;
+border-left: 2px solid #FFFFFF
+// Mouse leave
+// Change to: "Low, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// While pressing
+// Change to: "Low, Pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text, Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+Baixa Prioridade
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Priority="Low";
+State="Pressed";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 513px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #343333;
+border-left: 2px solid #FFFFFF
+Priority Tag
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text, Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Priority="Medium";
+State="Default";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 72px;
+left: 20px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// While hovering
+// Change to: "Medium, Hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text, Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Priority="Medium";
+State="Hover";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 72px;
+left: 266px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #4E4E4E;
+border-left: 2px solid #FFFFFF
+// Mouse leave
+// Change to: "Medium, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// While pressing
+// Change to: "Medium, Pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Priority="Medium";
+State="Pressed";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 72px;
+left: 513px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #343333;
+border-left: 2px solid #FFFFFF
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Priority="High";
+State="Default";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 129px;
+left: 20px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// While hovering
+// Change to: "High, Hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+Priority="High";
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Priority="High";
+State="Hover";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 129px;
+left: 266px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #4E4E4E;
+border-left: 2px solid #FFFFFF
+// Mouse leave
+// Change to: "High, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// While pressing
+// Change to: "High, Pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Priority="High";
+State="Pressed";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 129px;
+left: 513px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #343333;
+border-left: 2px solid #FFFFFF
+Priority Tag
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Priority="Super high";
+State="Default";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 186px;
+left: 20px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// While hovering
+// Change to: "Super high, Hover";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+Priority="Super high";
+State="Hover";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 186px;
+left: 266px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #4E4E4E;
+border-left: 2px solid #FFFFFF
+// While pressing
+// Change to: "Super high, Pressed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// Mouse leave
+// Change to: "Super high, Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+Priority="Super high";
+State="Pressed";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 186px;
+left: 513px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #343333;
+border-left: 2px solid #FFFFFF
+Priority Tag
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+///////////
+
+PriorityDropdown
+
+Selected="Low";
+State="Closed";
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "Low, Open";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Selected="Medium";
+State="Closed";
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 70px;
+left: 20px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "Medium, Open";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Selected="High";
+State="Closed";
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 123px;
+left: 20px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "High, Open";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Selected="SuperHigh";
+State="Closed";
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 176px;
+left: 20px;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "SuperHigh, Open";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+Selected=Low, State=Open
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "Low, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4.52px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Selected=Medium, State=Open
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "Medium, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4.52px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Selected=High, State=Open
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "High, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4.52px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Selected=SuperHigh, State=Open
+width: 205;
+height: 36;
+border-radius: 4px;
+border-width: 1px;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// On click
+// Change to: "SuperHigh, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsCaretDownFill
+width: 11.595210075378418;
+height: 7.480980396270752;
+angle: 0 deg;
+opacity: 1;
+top: 4.52px;
+left: 2.2px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Priority Tag
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+Selected=Low, State=Open
+width: 205;
+height: 144;
+angle: 0 deg;
+opacity: 1;
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+border-left-width: 2px;
+background: #252628;
+// On click
+// Change to: "Low, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// On click
+// Change to: "Medium, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+Priority="High";
+State="Default";
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// On click
+// Change to: "High, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+width: 205;
+height: 36;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 4px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #252628;
+// On click
+// Change to: "SuperHigh, Closed";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+//////////
+
+DescriptionTextBox
+
+State="Default";
+Text="Lista deletada com sucesso!";
+width: 472;
+height: 232;
+border-radius: 4px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #4E4E4E// On click
+// Change to: "Click1";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+width: 456;
+height: 216;
+angle: 0 deg;
+opacity: 1;
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click1";
+Text="Lista deletada com sucesso!";
+width: 472;
+height: 232;
+border-radius: 4px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 532px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 300ms;
+// Change to: "Click2";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+State="—";
+Text="Lista deletada com sucesso!";
+width: 456;
+height: 216;
+angle: 0 deg;
+opacity: 1;
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. |
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click2";
+Text="Lista deletada com sucesso!";
+width: 472;
+height: 232;
+border-radius: 4px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 1044px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 300ms;
+// Change to: "Click1";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+State="—";
+Text="Lista deletada com sucesso!";
+width: 456;
+height: 216;
+angle: 0 deg;
+opacity: 1;
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. 
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+/////////////
+
+Priority Tag
+
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+
+Priority="Medium";
+width: 148;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 61px;
+left: 20px;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F5EB88;
+Text,Média Prioridade
+width: 116;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #653408;
+
+Priority="High";
+width: 133;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 102px;
+left: 20px;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #FFA775;
+Text,Alta Prioridade
+width: 101;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #702D08;
+
+Priority="Super High";
+width: 169;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+top: 143px;
+left: 20px;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #F27F77;
+Text,Altíssima Prioridade
+width: 137;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #5F0F0B;
+
+//////////
+
+List Title
+
+State="Default";
+Type="ListTitle";
+width: 445;
+height: 48;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 24px;
+left: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+react-icons/bs/BsThreeDots
+width: 19.5;
+height: 4.5;
+angle: 0 deg;
+opacity: 1;
+top: 9.75px;
+left: 2.25px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,A Fazer
+width: 413;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+// On click
+// Change to: "Click1, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+State="Click1";
+Type="ListTitle";
+width: 445;
+height: 45;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 92px;
+left: 20px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click2, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Text, |
+width: 429;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click2";
+Type="ListTitle";
+width: 445;
+height: 45;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 163px;
+left: 20px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click1, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+width: 445;
+height: 48;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+padding-top: 8px;
+padding-bottom: 8px;
+Text,A Fazer
+width: 387;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+// On click
+// Change to: "Click1, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsThreeDots
+width: 24;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+ListOptionsButton
+State="Pressed";
+width: 32;
+height: 32;
+border-radius: 2px;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+background: #343333;
+// On click
+// Change to: "Default, ListTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+State=Options, Type=ListTitle
+width: 126;
+height: 96;
+border-radius: 4px;
+border-width: 0.5px;
+angle: 0 deg;
+opacity: 1;
+top: 42px;
+left: 401px;
+padding-top: 8px;
+padding-right: 1px;
+padding-bottom: 8px;
+padding-left: 1px;
+background: #252628;
+border: 0.5px solid #4E4E4E
+List Title/react-icons/bs/Property 35
+width: 16.00069808959961;
+height: 16.000202178955078;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+width: 84;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/ai/AiFillDelete
+width: 12;
+height: 12.5;
+angle: 0 deg;
+opacity: 1;
+top: 1.75px;
+left: 2px;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,Renomear lista
+width: 58;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+
+State="Default";
+Type="NewList";
+width: 300;
+height: 45;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 24px;
+left: 640px;
+padding: 8px;
+gap: 8px;
+// While hovering
+// Change to: "hover, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsFillPlusCircleFill
+width: 24;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Nova lista
+width: 98;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="hover";
+Type="NewList";
+width: 300;
+height: 45;
+border-radius: 12px;
+angle: 0 deg;
+opacity: 1;
+top: 91px;
+left: 640px;
+padding: 8px;
+gap: 8px;
+background: #4E4E4E;
+// Mouse leave
+// Change to: "Default, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Click1, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+react-icons/bs/BsFillPlusCircleFill
+width: 24;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Nova lista
+width: 98;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click1";
+Type="NewList";
+width: 300;
+height: 45;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 158px;
+left: 640px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click2, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Text, |
+width: 284;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click2";
+Type="NewList";
+width: 300;
+height: 45;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 217px;
+left: 640px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click1, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, NewList";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+State="Default";
+Type="TaskTitle";
+width: 445;
+height: 66;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 24px;
+left: 987px;
+padding-top: 8px;
+padding-bottom: 8px;
+Text,Task Title
+width: 445;
+height: 50;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 33.18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+// On click
+// Change to: "Click1, TaskTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+State="Click1";
+Type="TaskTitle";
+width: 445;
+height: 66;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 113px;
+left: 987px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click2, TaskTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, TaskTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Text, |
+width: 429;
+height: 50;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 33.18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Click2";
+Type="TaskTitle";
+width: 445;
+height: 66;
+border-radius: 12px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 217px;
+left: 987px;
+padding: 8px;
+gap: 10px;
+border: 1px solid #FFFFFF
+// After delay
+animation-delay: 500ms;
+// Change to: "Click1, TaskTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+// On click
+// Change to: "Default, TaskTitle";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+
+///////////
+
+TaskCard
+
+State="Default";
+Date="OnTime";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// While hovering
+// Change to: "Hover, OnTime, Desktop";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+Text,Finalizar
+width: 65;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+FinsihTaskButton
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #FFFFFF
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+State=Default, Date=OnTime, Device=Desktop
+width: 126;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #E0E0E0;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #646570;
+border: 1px solid #646570
+Text,23 JAN, 2024 
+State=Default, Date=OnTime, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+Text,Task Title
+width: 429;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+Text,Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years o...
+width: 429;
+height: 72;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+State="Hover";
+Date="OnTime";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 505px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+background: linear-gradient(258.85deg, #232323 0.2%, #393939 99.8%);
+border: 1px solid #FFFFFF
+// Mouse leave
+// Change to: "Default, OnTime, Desktop";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Priority Tag
+State=Hover, Date=OnTime, Device=Desktop
+Priority="Low";
+width: 143;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 10px;
+padding-top: 4px;
+padding-right: 16px;
+padding-bottom: 4px;
+padding-left: 16px;
+background: #46F7B7;
+Text,Baixa Prioridade
+width: 111;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #096343;
+Text,Finalizar
+width: 65;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+FinsihTaskButton
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #FFFFFF
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Task Title
+State=Hover, Date=OnTime, Device=Desktop
+width: 429;
+height: 29;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 19.2px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+Text,Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years o...
+State=Hover, Date=OnTime, Device=Desktop
+width: 429;
+height: 72;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+Frame 23
+State=Hover, Date=OnTime, Device=Desktop
+width: 126;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #E0E0E0;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #646570;
+border: 1px solid #646570
+Text,23 JAN, 2024 
+State=Hover, Date=OnTime, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #646570;
+
+State="RIGHT CLICK";
+Date="OnTime";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 990px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+background: linear-gradient(258.85deg, #232323 0.2%, #393939 99.8%);
+border: 1px solid #FFFFFF
+NOTHING CHANGES, ONLY WE ADD IN THE BOTTOM RIGHT CORNER
+State="Frame 19";
+Date="OnTime";
+Device="Desktop";
+width: 109;
+height: 136;
+border-radius: 4px;
+border-width: 0.5px;
+angle: 0 deg;
+opacity: 1;
+top: 168px;
+left: 1353px;
+padding-top: 8px;
+padding-right: 1px;
+padding-bottom: 8px;
+padding-left: 1px;
+background: #252628;
+border: 0.5px solid #4E4E4E
+react-icons/bs/BsPencilFill
+width: 16.000699996948242;
+height: 16.000200271606445;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+DropdownItem
+width: 46;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/bs/BsPlusSquareDotted
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+width: 67;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/ai/AiFillDelete
+width: 12;
+height: 12.5;
+angle: 0 deg;
+opacity: 1;
+top: 1.75px;
+left: 2px;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,Renomear lista
+width: 58;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+background: #AF0505;
+
+State="Finished";
+Date="OnTime";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 1482px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+WHEN FINISHED, ALL OPACITIES ARE SET TO 40%
+
+State="Default";
+Date="Late";
+Device="Desktop";
+WHEN THE FINISHING DATE IS IN THE PAST, THE TASK IS LATE, AND THE DATE CARD GETS RED 
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+State="Hover";
+Date="Late";
+Device="Desktop";
+WHEN THE TASK IS LATE AND IS HOVERED 
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 341px;
+left: 505px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+background: linear-gradient(258.85deg, #381D1D 0.2%, #553434 99.8%);
+border: 1px solid #FFFFFF
+// Mouse leave
+// Change to: "Default, Late, Desktop";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+State="RIGHT CLICK";
+Date="Late";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 341px;
+left: 990px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+background: linear-gradient(258.85deg, #232323 0.2%, #393939 99.8%);
+TASK IS LATE AND IS CLICKED
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,23 JAN, 2024 
+State=Default, Date=Late, Device=Desktop
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+State="State8";
+Date="OnTime";
+Device="Desktop";
+width: 109;
+height: 136;
+border-radius: 4px;
+border-width: 0.5px;
+angle: 0 deg;
+opacity: 1;
+top: 482px;
+left: 1354px;
+padding-top: 8px;
+padding-right: 1px;
+padding-bottom: 8px;
+padding-left: 1px;
+background: #252628;
+border: 0.5px solid #4E4E4E
+react-icons/bs/BsPencilFill
+width: 16.000699996948242;
+height: 16.000200271606445;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 0px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+width: 46;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/bs/BsPlusSquareDotted
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Renomear lista
+width: 67;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/ai/AiFillDelete
+width: 12;
+height: 12.5;
+angle: 0 deg;
+opacity: 1;
+top: 1.75px;
+left: 2px;
+background: #AF0505;
+border: 1px solid #AF0505
+Text,Renomear lista
+width: 58;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #AF0505;
+
+State="Finished";
+Date="Late";
+Device="Desktop";
+width: 445;
+height: 221;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 341px;
+left: 1482px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+TASK FINISHED AND LATE, EVERYTHING WITH OPACITY 40%
+State=Finished, Date=Late, Device=Desktop
+width: 126;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #DDA9A966;
+
+///////////
+
+TaskCard - MOBILE
+
+IN MOBILE, EVERYTHING EQUAL FOR DESKTOP, BUT WITH DIFFERENT DIMENSIONS
+
+State="Default";
+Date="OnTime";
+Device="Mobile";
+width: 370;
+height: 204;
+border-radius: 8px;
+border-width: 1px;
+angle: 0 deg;
+opacity: 1;
+top: 689px;
+left: 20px;
+gap: 12px;
+padding-top: 12px;
+padding-right: 8px;
+padding-bottom: 12px;
+padding-left: 8px;
+border: 1px solid #4E4E4E
+// While hovering
+// Change to: "Hover, OnTime, Mobile";
+// Animate: Smart animate;
+animation-timing-function: ease-out;
+animation-duration: 300ms;
+Text,Task Title
+width: 429;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+FinsihTaskButton
+width: 32;
+height: 32;
+border-radius: 50px;
+border-width: 1px;
+border-style: dashed;
+dashes: 2, 2;
+angle: 0 deg;
+opacity: 1;
+padding: 4px;
+gap: 10px;
+border: 1px solid #FFFFFF
+react-icons/bs/BsCheck2
+width: 17.252286911010742;
+height: 12.002680778503418;
+angle: 0 deg;
+opacity: 1;
+top: 5.25px;
+left: 3.75px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+Text,Finalizar
+width: 65;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+Text,Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years o...
+width: 354;
+height: 60;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+Frame 23
+State=Default, Date=OnTime, Device=Mobile
+width: 126;
+height: 28;
+border-radius: 4px;
+angle: 0 deg;
+opacity: 1;
+gap: 8px;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 8px;
+background: #E0E0E0;
+react-icons/bs/BsFillCalendarWeekFill
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+background: #646570;
+border: 1px solid #646570
+Text,23 JAN, 2024 
+State=Default, Date=OnTime, Device=Mobile
+width: 86;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 13.33px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #646570;
+
+////////////
+
+Snackbar#Success
+
+width: 336;
+height: 40;
+border-radius: 12px;
+border-width: 0.5px;
+angle: 0 deg;
+opacity: 1;
+gap: 24px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+background: #252628;
+border: 0.5px solid #FFFFFF
+check-circle
+width: 20;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+background: #029008;
+Text,Lista deletada com sucesso!
+width: 228;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+background: #029008;
+react-icons/bs/BsXLg
+width: 14.01207447052002;
+height: 14;
+angle: 0 deg;
+opacity: 1;
+top: 0.99px;
+left: 1px;
+background: #029008;
+border: 1px solid #029008
+
+////////////
+
+Navbar - DESKTOP
+
+width: 1920;
+height: 84;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 20px;
+left: 20px;
+padding-top: 12px;
+padding-right: 80px;
+padding-bottom: 12px;
+padding-left: 80px;
+border-bottom-width: 1px;
+background: linear-gradient(90deg, rgba(91, 91, 91, 0.3) 0%, rgba(76, 68, 68, 0.3) 100%);
+border-bottom: 1px solid #4E4E4E
+backdrop-filter: blur(79.80000305175781px)
+LOGO PNG 
+width: 54.66796875;
+height: 60;
+angle: 0 deg;
+opacity: 1;
+Text,Peugeot Tasks
+width: 68;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/bs/BsBellFill
+width: 21;
+height: 25.001367568969727;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 1.5px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+account_circle
+width: 28;
+height: 28;
+angle: 0 deg;
+opacity: 1;
+width: 23.33333396911621;
+height: 23.33333396911621;
+angle: 0 deg;
+opacity: 1;
+top: 2.33px;
+left: 2.33px;
+background: #FFFFFF;
+Text,José
+width: 38;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+
+
+
+////////////
+
+Navbar - MOBILE 
+
+width: 430;
+height: 75;
+justify-content: space-between;
+angle: 0 deg;
+opacity: 1;
+top: 137px;
+left: 20px;
+padding-top: 12px;
+padding-right: 40px;
+padding-bottom: 12px;
+padding-left: 40px;
+border-bottom-width: 1px;
+background: linear-gradient(90deg, rgba(91, 91, 91, 0.3) 0%, rgba(76, 68, 68, 0.3) 100%);
+border-bottom: 1px solid #4E4E4E
+LOGO PNG
+width: 38;
+height: 42;
+angle: 0 deg;
+opacity: 1;
+Text,Peugeot Tasks
+width: 68;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+background: #FFFFFF;
+react-icons/bs/BsBellFill
+width: 21;
+height: 25.001367568969727;
+angle: 0 deg;
+opacity: 1;
+top: -0px;
+left: 1.5px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF
+account_circle
+width: 26.66666603088379;
+height: 26.66666603088379;
+angle: 0 deg;
+opacity: 1;
+top: 2.67px;
+left: 2.67px;
+background: #FFFFFF;
+width: 32;
+height: 32;
+angle: 0 deg;
+opacity: 1;

@@ -1,3 +1,5 @@
+// src/pages/Login.tsx
+
 import { useState } from 'react';
 import Logo from '../components/common/Logo';
 import InputField from '../components/login/InputField';
@@ -5,6 +7,9 @@ import Button from '../components/login/Button';
 import bgLogin from '../assets/common/login-wallpaper.jpg';
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { login } from '../services/authService';
+import { setAuthToken } from '../utils/auth';
+
 
 const Login = () => {
 
@@ -17,13 +22,23 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [isLoading, setIsLoading] = useState(false);
 
-    const handleLogin = () => {
+    const handleLogin = async () => {
+
         setIsLoading(true);
-        
-        setTimeout(() => {
-        console.log('Login with:', { email, password });
-        setIsLoading(false);
-        }, 1000);
+
+        try {
+            const response = await login({ email, password });
+
+            // Store "session"
+            setAuthToken(response.token);
+
+            // Go to main app
+            navigate("/tasks");
+        } catch (error) {
+            alert(error);
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
@@ -139,4 +154,4 @@ const Login = () => {
     );
     }
 
-    export default Login;
+export default Login;

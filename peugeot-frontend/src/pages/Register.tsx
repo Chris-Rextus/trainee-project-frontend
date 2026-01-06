@@ -1,3 +1,5 @@
+// src/pages/Register.tsx
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../components/common/Logo";
