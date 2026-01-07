@@ -31,12 +31,10 @@ const ProfileButton = ({
         ${className}
       `}
     >
-      {/* Icon */}
       <MdAccountCircle
         className="w-[23.33px] h-[23.33px] text-white"
       />
 
-      {/* Name */}
       <span
         className="
           text-base

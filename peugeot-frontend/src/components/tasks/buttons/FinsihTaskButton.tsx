@@ -36,7 +36,6 @@ const FinishTaskButton = ({
         ${className}
       `}
     >
-      {/* Icon container */}
       <div
         className={`
           flex items-center justify-center
@@ -72,7 +71,6 @@ const FinishTaskButton = ({
         />
       </div>
 
-      {/* Text */}
       <span
         className={`
           text-base

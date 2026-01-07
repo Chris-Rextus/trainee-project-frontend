@@ -29,10 +29,10 @@ const Login = () => {
         try {
             const response = await login({ email, password });
 
-            // Store "session"
+
             setAuthToken(response.token);
 
-            // Go to main app
+  
             navigate("/tasks");
         } catch (error) {
             alert(error);
@@ -44,7 +44,6 @@ const Login = () => {
     return (
     <div className="relative min-h-screen">
 
-        {/* Background image */}
         <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -52,21 +51,16 @@ const Login = () => {
         }}
         />
 
-        {/* Black overlay (50%) */}
         <div className="absolute inset-0 bg-black/65" />
 
-        {/* Content */}
         <div className="relative z-10 min-h-screen flex items-center justify-center px-4">
 
-        {/* Card */}
         <div className="w-full max-w-sm rounded-2xl bg-white shadow-xl border border-neutral-200 px-6 py-8">
 
-            {/* Logo */}
             <div className="flex justify-center mb-6">
             <Logo className="h-12 w-auto" />
             </div>
 
-            {/* Heading */}
             <div className="text-center mb-6">
             <h1 className="text-2xl font-semibold text-neutral-900">
                 Sign in
@@ -76,7 +70,6 @@ const Login = () => {
             </p>
             </div>
 
-            {/* Form */}
             <div className="space-y-4">
 
             <div>
@@ -103,7 +96,6 @@ const Login = () => {
                 />
             </div>
 
-            {/* Options */}
             <div className="flex items-center justify-between text-xs">
                 <label className="flex items-center gap-2 text-neutral-600">
                 <input
@@ -117,7 +109,6 @@ const Login = () => {
                 </button>
             </div>
 
-            {/* Primary button */}
             <Button
             onClick={handleLogin}
             isLoading={isLoading}
@@ -128,7 +119,6 @@ const Login = () => {
 
             </div>
 
-            {/* Divider */}
             <div className="my-6 flex items-center">
             <div className="flex-1 border-t border-neutral-200" />
             <span className="mx-3 text-[10px] uppercase tracking-wide text-neutral-400">
@@ -137,7 +127,6 @@ const Login = () => {
             <div className="flex-1 border-t border-neutral-200" />
             </div>
 
-            {/* Footer */}
             <p className="mt-6 text-center text-xs text-neutral-500">
             No account?{" "}
             <button

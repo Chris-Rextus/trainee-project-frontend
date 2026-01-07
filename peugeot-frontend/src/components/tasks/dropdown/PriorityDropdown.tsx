@@ -45,7 +45,6 @@ const PriorityDropdown = ({ value, onChange }: PriorityDropdownProps) => {
 
   return (
     <div className="relative w-[205px]">
-      {/* Trigger */}
       <button
         type="button"
         onClick={toggle}
@@ -69,7 +68,6 @@ const PriorityDropdown = ({ value, onChange }: PriorityDropdownProps) => {
         />
       </button>
 
-      {/* Dropdown menu */}
       {isOpen && (
         <div
           className="

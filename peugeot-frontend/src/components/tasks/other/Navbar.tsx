@@ -2,16 +2,19 @@
 
 import { BsBellFill } from "react-icons/bs";
 import { MdAccountCircle } from "react-icons/md";
-import logo from "@/assets/common/logo.png";
+import { FiLogOut } from "react-icons/fi"; 
+import Logo from "../../common/Logo";
 
 interface NavbarProps {
   userName: string;
   hasNotification?: boolean;
+  onLogout?: () => void; 
 }
 
 const Navbar = ({
   userName,
   hasNotification = false,
+  onLogout,
 }: NavbarProps) => {
   return (
     <header
@@ -30,38 +33,56 @@ const Navbar = ({
         backdrop-blur-[80px]
       "
     >
-      {/* Left: Logo */}
-      <div className="flex items-center gap-2">
-        <img
-          src={logo}
-          alt="Peugeot Tasks"
+      <div className="flex items-center gap-3 md:gap-4">
+        <Logo 
+          heightPx={55} 
           className="
-            w-[38px] h-[42px]
-            md:w-[54.67px] md:h-[60px]
-          "
+            w-auto
+            md:h-[75px] md:w-auto
+          " 
         />
-        <span className="text-base font-semibold text-white">
-          Peugeot Tasks
-        </span>
+        <div className="flex flex-col">
+          <span className="text-lg font-bold text-white leading-tight"> 
+            Peugeot
+          </span>
+          <span className="text-lg font-semibold text-white leading-tight"> 
+            Tasks
+          </span>
+        </div>
       </div>
 
-      {/* Right: Actions */}
-      <div className="flex items-center gap-4">
-        {/* Notification */}
+      <div className="flex items-center gap-4 md:gap-5">
         <button className="relative">
-          <BsBellFill className="w-[21px] h-[25px] text-white" />
+          <BsBellFill className="w-[24px] h-[28px] text-white" />
 
           {hasNotification && (
-            <span className="absolute top-0 right-0 w-2 h-2 rounded-full bg-red-700" />
+            <span className="absolute top-0 right-0 w-2.5 h-2.5 rounded-full bg-red-700" />
           )}
         </button>
 
-        {/* Profile */}
-        <button className="flex items-center gap-2">
+        {onLogout && (
+          <button 
+            onClick={onLogout}
+            className="
+              flex items-center gap-2
+              px-3 py-1.5
+              bg-red-600 hover:bg-red-700
+              text-white text-sm font-medium
+              rounded-md
+              transition-colors
+            "
+            title="Logout"
+          >
+            <FiLogOut className="w-4 h-4" />
+            <span className="hidden md:inline">Logout</span>
+          </button>
+        )}
+
+        <button className="flex items-center gap-3">
           <MdAccountCircle
             className="
-              w-[26.66px] h-[26.66px]
-              md:w-[28px] md:h-[28px]
+              w-[30px] h-[30px]
+              md:w-[32px] md:h-[32px]
               text-white
             "
           />

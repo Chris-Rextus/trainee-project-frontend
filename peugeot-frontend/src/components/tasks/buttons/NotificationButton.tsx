@@ -33,10 +33,8 @@ const NotificationButton = ({
         ${className}
       `}
     >
-      {/* Bell icon */}
       <BsBellFill className="w-6 h-[25px] text-white" />
 
-      {/* Notification dot */}
       {hasNotification && (
         <span
           className="
